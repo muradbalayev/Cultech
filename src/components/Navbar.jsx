@@ -33,7 +33,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex gap-3 items-center">
             <img src={logo} alt="Logo" className="h-10 w-auto" />
-            <p className='text-lg font-semibold pt-1'>CulTech</p>
+            <p className={` ${isScrolled || !isHomePage ? 'text-gray-700' : 'text-white'} text-lg font-semibold pt-1`}>CulTech</p>
           </div>
 
           {/* Links */}
