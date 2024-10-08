@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import logo from '../assets/logo.png';
-import { Menu, Close, X } from '@mui/icons-material';
+import { Menu, Close} from '@mui/icons-material';
 import { FaXmark } from 'react-icons/fa6';
 
 const Navbar = () => {

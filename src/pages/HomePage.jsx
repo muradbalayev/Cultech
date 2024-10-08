@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <div className='flex flex-col items-center'>
             <Hero />
-            <div className='w-full px-16'>
+            <div className='w-full lg:px-16 md:px-12 sm:px-8 px-4'>
             <Destinations />
             <Map />
             </div>
