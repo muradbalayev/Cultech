@@ -43,9 +43,9 @@ const Map = () => {
     ];
 
     return (
-        <div className="flex gap-4 w-full max-h-[830px] py-20">
+        <div className="flex md:flex-row flex-col md:gap-4 gap-10 w-full md:h-[850px] py-20">
             {/* Left side - Cards section */}
-            <div className="w-1/2 p-4 overflow-y-auto flex flex-col gap-4">
+            <div className="md:w-1/2 w-full p-4 overflow-y-auto md:h-auto h-[600px] flex flex-col gap-4">
                 {cardData.map((card) => (
                     <div key={card.id} className="bg-white shadow-md rounded-lg">
                         <div className="flex ">
@@ -65,7 +65,7 @@ const Map = () => {
             </div>
 
             {/* Right side - map iframe */}
-            <div className="w-1/2">
+            <div className="md:w-1/2 w-full">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30979.3170580012!2d46.58650900235027!3d40.14310541604762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x403b830b35c4f63d%3A0x12d303d24b6bc2f3!2sAzerbaijan!5e0!3m2!1sen!2s!4v1696753071984!5m2!1sen!2s"
                     width="100%"

@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
 
           {/* Tagline or Description */}
-          <p className="text-sm text-gray-400">
+          <p className="md:block hidden text-sm text-gray-400">
             © 2024 Your Company. All rights reserved. | Building a sustainable future.
           </p>
 
